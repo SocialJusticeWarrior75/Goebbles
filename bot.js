@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const token = "NDc1Mzg0NjI1NDE4NzMxNTIw.DkeQFA.odXvZnajM0x49WZYmTAaprzov2k";
+const token = process.env.TOKEN;
 const prefix = "**";
 
 // ROLE GROS PORC 463404030979473438
