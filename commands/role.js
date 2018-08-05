@@ -48,7 +48,7 @@ var exec = function(user, channel, args) {
       case 'jehovah':
         tools.removeTriangles(user);
         tools.addRoleTo(user, bot.usefulInfos.handlingGuild.roles.get('455815142685409281'), " changement de triangle", member);
-        channel.send("Tu a maintenant un triangle de Témoin de Jéhovah <:trianglemarron:455808589723074580>");
+        channel.send("Tu a maintenant un triangle de Témoin de Jéhovah <:triangleviolet:455851560270954506>");
         break;
       case 'politique':
         tools.removeTriangles(user);
